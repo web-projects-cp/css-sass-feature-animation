@@ -1,0 +1,39 @@
+.contact-form{
+    height:380px;
+    width:400px;
+    border-radius: 10px;
+    background-color: $orange;
+    margin-left: 410px;
+    align-content: center;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 20px;
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid $greywhite;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: none;
+    }
+    input[type=submit] {
+      background-color: $grey;
+      color: $greywhite;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      transform: scale(1.05);
+      background-color: $green;
+    }
+
+    
+
+  }
+

@@ -1,0 +1,69 @@
+.header {
+  height: 350px;
+  width: 100%;
+  @include flex_detail2;
+  &__intro {
+    width: 900px;
+    margin-left: 50px;
+    text-align: center;
+  }
+  &__hero {
+    img {
+      width: 400px;
+      height: 360px;
+      object-fit: cover;
+    }
+    width:100%;
+  height:500px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  }
+  #rightfoot{
+    transform-origin: bottom;
+    transform-box: fill;
+    transform:rotate(2deg);
+    animation:rightfoot 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes rightfoot{
+    100% {
+      transform:translateX(5px) translateY(-5px)
+    }
+  }
+  
+  #righthand{
+    transform-origin: bottom;
+    animation:righthand 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes righthand{
+    100%{
+      transform:translateX(10px) translateY(-10px);
+      }
+  }
+  
+  #lefthand{
+    transform-origin: bottom;
+    animation:lefthand 2s ease-in-out infinite alternate-reverse;
+  }
+  
+  @keyframes lefthand{
+    100%{
+      transform:translateX(10px) translateY(-10px);
+      }
+  }
+  
+  #menu{
+    animation:menu 2s infinite alternate;
+  }
+  
+  @keyframes menu{
+    100%{
+      filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+     }
+  }
+  
+}
+
+

@@ -1,0 +1,36 @@
+
+@import 'mixins';
+
+.nav{
+  background-color: $orange;
+  width:100%;
+  height:80px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  img{
+    height:75px;
+    width:75px;
+  }
+  ul{
+    width:500px;
+    height:50px;
+    @include flex_detail2;
+    li{
+      list-style-type: none;
+      :hover{
+        background-color: yellow;
+        text-transform: upper;
+      }
+      a{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        color:$grey;
+        height:35px;
+        width:auto;
+        padding:5px;
+      }
+    }
+  }
+}

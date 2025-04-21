@@ -1,0 +1,22 @@
+.experience {
+    h2 {
+      @include heading2;
+    }
+    .company-logo {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      figure {
+        text-align: center;
+      }
+      img {
+        width: 130px;
+        height: 130px;
+        object-fit: cover;
+        background-color: red;
+      }
+    }
+  }
+
+  
+  
