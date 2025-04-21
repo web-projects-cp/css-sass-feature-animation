@@ -1,6 +1,6 @@
 # 💻 Poonkodi Chenniappan - Portfolio Website using css-sass-feature-animation
 
-![Demo](https://web-projects-cp.github.io/css-sass-feature-animation/) 
+[Demo](https://web-projects-cp.github.io/css-sass-feature-animation/) 
 
 A responsive portfolio website showcasing my skills, experience, and projects as a frontend developer. Built with modern web technologies and featuring clean animations.
 
